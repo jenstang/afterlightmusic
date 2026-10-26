@@ -1,0 +1,1786 @@
+{
+  "title": "Serviett i nord",
+  "duration": 216.76,
+  "source": "Serviett i nord v6.wav",
+  "method": "local-whisper-forced-alignment-with-reviewed-phrase-windows",
+  "cues": [
+    {
+      "id": 0,
+      "section": "Intro",
+      "text": "Hey! Hey! Hey! Hey!",
+      "start": 2.16,
+      "end": 5.8,
+      "words": [
+        {
+          "text": "Hey!",
+          "start": 2.16,
+          "end": 3.07
+        },
+        {
+          "text": "Hey!",
+          "start": 3.07,
+          "end": 3.98
+        },
+        {
+          "text": "Hey!",
+          "start": 3.98,
+          "end": 4.89
+        },
+        {
+          "text": "Hey!",
+          "start": 4.89,
+          "end": 5.8
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "section": "Intro",
+      "text": "Tretti år! Tretti år!",
+      "start": 6.1,
+      "end": 9.4,
+      "words": [
+        {
+          "text": "Tretti",
+          "start": 6.1,
+          "end": 7.338
+        },
+        {
+          "text": "år!",
+          "start": 7.338,
+          "end": 7.75
+        },
+        {
+          "text": "Tretti",
+          "start": 7.75,
+          "end": 8.988
+        },
+        {
+          "text": "år!",
+          "start": 8.988,
+          "end": 9.4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "section": "Intro",
+      "text": "Hey! Hey! Hey! Hey!",
+      "start": 15.2,
+      "end": 19.3,
+      "words": [
+        {
+          "text": "Hey!",
+          "start": 15.2,
+          "end": 16.225
+        },
+        {
+          "text": "Hey!",
+          "start": 16.225,
+          "end": 17.25
+        },
+        {
+          "text": "Hey!",
+          "start": 17.25,
+          "end": 18.275
+        },
+        {
+          "text": "Hey!",
+          "start": 18.275,
+          "end": 19.3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "section": "Vers 1",
+      "text": "Nittiseks, og det snødde tungt i nord,",
+      "start": 33.2,
+      "end": 36.58,
+      "words": [
+        {
+          "text": "Nittiseks,",
+          "start": 33.2,
+          "end": 34.95
+        },
+        {
+          "text": "og",
+          "start": 34.95,
+          "end": 35.11
+        },
+        {
+          "text": "det",
+          "start": 35.11,
+          "end": 35.27
+        },
+        {
+          "text": "snødde",
+          "start": 35.27,
+          "end": 35.73
+        },
+        {
+          "text": "tungt",
+          "start": 35.73,
+          "end": 36.13
+        },
+        {
+          "text": "i",
+          "start": 36.13,
+          "end": 36.21
+        },
+        {
+          "text": "nord,",
+          "start": 36.21,
+          "end": 36.58
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "section": "Vers 1",
+      "text": "noen karer satt rundt samme bord.",
+      "start": 36.58,
+      "end": 40.08,
+      "words": [
+        {
+          "text": "noen",
+          "start": 36.58,
+          "end": 37.51
+        },
+        {
+          "text": "karer",
+          "start": 37.51,
+          "end": 38.01
+        },
+        {
+          "text": "satt",
+          "start": 38.01,
+          "end": 38.31
+        },
+        {
+          "text": "rundt",
+          "start": 38.31,
+          "end": 38.91
+        },
+        {
+          "text": "samme",
+          "start": 38.91,
+          "end": 39.53
+        },
+        {
+          "text": "bord.",
+          "start": 39.53,
+          "end": 40.08
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "section": "Vers 1",
+      "text": "Ingen fasit, ingen store ord –",
+      "start": 40.08,
+      "end": 43.52,
+      "words": [
+        {
+          "text": "Ingen",
+          "start": 40.08,
+          "end": 40.97
+        },
+        {
+          "text": "fasit,",
+          "start": 40.97,
+          "end": 41.95
+        },
+        {
+          "text": "ingen",
+          "start": 41.95,
+          "end": 42.21
+        },
+        {
+          "text": "store",
+          "start": 42.21,
+          "end": 42.73
+        },
+        {
+          "text": "ord",
+          "start": 42.73,
+          "end": 43.52
+        },
+        {
+          "text": "–",
+          "start": 43.5,
+          "end": 43.52
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "section": "Vers 1",
+      "text": "bare en serviett og en drøm så stor.",
+      "start": 43.52,
+      "end": 46.96,
+      "words": [
+        {
+          "text": "bare",
+          "start": 43.52,
+          "end": 43.81
+        },
+        {
+          "text": "en",
+          "start": 43.81,
+          "end": 44.11
+        },
+        {
+          "text": "serviett",
+          "start": 44.11,
+          "end": 45.55
+        },
+        {
+          "text": "og",
+          "start": 45.55,
+          "end": 45.61
+        },
+        {
+          "text": "en",
+          "start": 45.61,
+          "end": 45.81
+        },
+        {
+          "text": "drøm",
+          "start": 45.81,
+          "end": 46.21
+        },
+        {
+          "text": "så",
+          "start": 46.21,
+          "end": 46.53
+        },
+        {
+          "text": "stor.",
+          "start": 46.53,
+          "end": 46.96
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "section": "Før refreng",
+      "text": "Én strek, én sirkel, ett navn på papir,",
+      "start": 46.96,
+      "end": 50.46,
+      "words": [
+        {
+          "text": "Én",
+          "start": 46.96,
+          "end": 47.49
+        },
+        {
+          "text": "strek,",
+          "start": 47.49,
+          "end": 48.27
+        },
+        {
+          "text": "én",
+          "start": 48.27,
+          "end": 48.33
+        },
+        {
+          "text": "sirkel,",
+          "start": 48.33,
+          "end": 49.21
+        },
+        {
+          "text": "ett",
+          "start": 49.21,
+          "end": 49.37
+        },
+        {
+          "text": "navn",
+          "start": 49.37,
+          "end": 49.67
+        },
+        {
+          "text": "på",
+          "start": 49.67,
+          "end": 49.77
+        },
+        {
+          "text": "papir,",
+          "start": 49.77,
+          "end": 50.46
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "section": "Før refreng",
+      "text": "og karene skåla for det som kom hit.",
+      "start": 50.46,
+      "end": 54.08,
+      "words": [
+        {
+          "text": "og",
+          "start": 50.46,
+          "end": 51.07
+        },
+        {
+          "text": "karene",
+          "start": 51.07,
+          "end": 51.61
+        },
+        {
+          "text": "skåla",
+          "start": 51.61,
+          "end": 52.43
+        },
+        {
+          "text": "for",
+          "start": 52.43,
+          "end": 52.81
+        },
+        {
+          "text": "det",
+          "start": 52.81,
+          "end": 53.05
+        },
+        {
+          "text": "som",
+          "start": 53.05,
+          "end": 53.25
+        },
+        {
+          "text": "kom",
+          "start": 53.25,
+          "end": 53.53
+        },
+        {
+          "text": "hit.",
+          "start": 53.53,
+          "end": 54.08
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "section": "Før refreng",
+      "text": "Løft opp glasset, syng med her –",
+      "start": 54.08,
+      "end": 57.56,
+      "words": [
+        {
+          "text": "Løft",
+          "start": 54.08,
+          "end": 55.05
+        },
+        {
+          "text": "opp",
+          "start": 55.05,
+          "end": 55.25
+        },
+        {
+          "text": "glasset,",
+          "start": 55.25,
+          "end": 56.35
+        },
+        {
+          "text": "syng",
+          "start": 56.35,
+          "end": 56.81
+        },
+        {
+          "text": "med",
+          "start": 56.81,
+          "end": 57.03
+        },
+        {
+          "text": "her",
+          "start": 57.03,
+          "end": 57.51
+        },
+        {
+          "text": "–",
+          "start": 57.51,
+          "end": 57.56
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "section": "Før refreng",
+      "text": "resten, folkens, det er historie!",
+      "start": 57.56,
+      "end": 61.48,
+      "words": [
+        {
+          "text": "resten,",
+          "start": 57.56,
+          "end": 58.85
+        },
+        {
+          "text": "folkens,",
+          "start": 58.85,
+          "end": 59.77
+        },
+        {
+          "text": "det",
+          "start": 59.77,
+          "end": 59.87
+        },
+        {
+          "text": "er",
+          "start": 59.87,
+          "end": 60.17
+        },
+        {
+          "text": "historie!",
+          "start": 60.17,
+          "end": 61.48
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "section": "Refreng",
+      "text": "SpareBank 1! (Hey!) SpareBank 1! (Hey!)",
+      "start": 62.5,
+      "end": 65.76,
+      "words": [
+        {
+          "text": "SpareBank",
+          "start": 62.5,
+          "end": 63.23
+        },
+        {
+          "text": "1!",
+          "start": 63.23,
+          "end": 63.97
+        },
+        {
+          "text": "(Hey!)",
+          "start": 63.97,
+          "end": 64.07
+        },
+        {
+          "text": "SpareBank",
+          "start": 64.07,
+          "end": 65.03
+        },
+        {
+          "text": "1!",
+          "start": 65.03,
+          "end": 65.57
+        },
+        {
+          "text": "(Hey!)",
+          "start": 65.57,
+          "end": 65.76
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "section": "Refreng",
+      "text": "Fra en serviett i nord til hele Norges lag!",
+      "start": 65.76,
+      "end": 69,
+      "words": [
+        {
+          "text": "Fra",
+          "start": 65.76,
+          "end": 66.09
+        },
+        {
+          "text": "en",
+          "start": 66.09,
+          "end": 66.37
+        },
+        {
+          "text": "serviett",
+          "start": 66.37,
+          "end": 67.19
+        },
+        {
+          "text": "i",
+          "start": 67.19,
+          "end": 67.29
+        },
+        {
+          "text": "nord",
+          "start": 67.29,
+          "end": 67.49
+        },
+        {
+          "text": "til",
+          "start": 67.49,
+          "end": 67.73
+        },
+        {
+          "text": "hele",
+          "start": 67.73,
+          "end": 68.01
+        },
+        {
+          "text": "Norges",
+          "start": 68.01,
+          "end": 68.53
+        },
+        {
+          "text": "lag!",
+          "start": 68.53,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "section": "Refreng",
+      "text": "SpareBank 1! (Hey!) SpareBank 1! (Hey!)",
+      "start": 69,
+      "end": 72.38,
+      "words": [
+        {
+          "text": "SpareBank",
+          "start": 69,
+          "end": 70.19
+        },
+        {
+          "text": "1!",
+          "start": 70.19,
+          "end": 70.91
+        },
+        {
+          "text": "(Hey!)",
+          "start": 70.91,
+          "end": 71.03
+        },
+        {
+          "text": "SpareBank",
+          "start": 71.03,
+          "end": 72.03
+        },
+        {
+          "text": "1!",
+          "start": 72.03,
+          "end": 72.37
+        },
+        {
+          "text": "(Hey!)",
+          "start": 72.36,
+          "end": 72.38
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "section": "Refreng",
+      "text": "Tretti lys på kaka – vi feirer bursdag i dag!",
+      "start": 72.38,
+      "end": 76.36,
+      "words": [
+        {
+          "text": "Tretti",
+          "start": 72.38,
+          "end": 73.35
+        },
+        {
+          "text": "lys",
+          "start": 73.35,
+          "end": 73.53
+        },
+        {
+          "text": "på",
+          "start": 73.53,
+          "end": 73.75
+        },
+        {
+          "text": "kaka",
+          "start": 73.75,
+          "end": 74.19
+        },
+        {
+          "text": "–",
+          "start": 74.19,
+          "end": 74.25
+        },
+        {
+          "text": "vi",
+          "start": 74.25,
+          "end": 74.35
+        },
+        {
+          "text": "feirer",
+          "start": 74.35,
+          "end": 74.65
+        },
+        {
+          "text": "bursdag",
+          "start": 74.65,
+          "end": 75.13
+        },
+        {
+          "text": "i",
+          "start": 75.13,
+          "end": 75.51
+        },
+        {
+          "text": "dag!",
+          "start": 75.51,
+          "end": 76.36
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "section": "Refreng",
+      "text": "Oh-oh-oh-oh, oh-oh-oh!",
+      "start": 76.36,
+      "end": 78.9,
+      "words": [
+        {
+          "text": "Oh-oh-oh-oh,",
+          "start": 76.36,
+          "end": 77.831
+        },
+        {
+          "text": "oh-oh-oh!",
+          "start": 77.831,
+          "end": 78.9
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "section": "Refreng",
+      "text": "(Skål for tretti år!)",
+      "start": 78.9,
+      "end": 80.6,
+      "words": [
+        {
+          "text": "(Skål",
+          "start": 78.9,
+          "end": 79.65
+        },
+        {
+          "text": "for",
+          "start": 79.65,
+          "end": 79.79
+        },
+        {
+          "text": "tretti",
+          "start": 79.79,
+          "end": 80.29
+        },
+        {
+          "text": "år!)",
+          "start": 80.29,
+          "end": 80.6
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "section": "Refreng",
+      "text": "Oh-oh-oh-oh, oh-oh-oh!",
+      "start": 80.6,
+      "end": 84.1,
+      "words": [
+        {
+          "text": "Oh-oh-oh-oh,",
+          "start": 80.6,
+          "end": 82.626
+        },
+        {
+          "text": "oh-oh-oh!",
+          "start": 82.626,
+          "end": 84.1
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "section": "Vers 2",
+      "text": "Tolv banker, tolv hjertelag,",
+      "start": 97.26,
+      "end": 100.94,
+      "words": [
+        {
+          "text": "Tolv",
+          "start": 97.26,
+          "end": 99.03
+        },
+        {
+          "text": "banker,",
+          "start": 99.03,
+          "end": 99.37
+        },
+        {
+          "text": "tolv",
+          "start": 99.37,
+          "end": 99.77
+        },
+        {
+          "text": "hjertelag,",
+          "start": 99.77,
+          "end": 100.94
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "section": "Vers 2",
+      "text": "fra Nordkapp og ned til Lindesnes i dag.",
+      "start": 100.94,
+      "end": 104.46,
+      "words": [
+        {
+          "text": "fra",
+          "start": 100.94,
+          "end": 101.47
+        },
+        {
+          "text": "Nordkapp",
+          "start": 101.47,
+          "end": 102.27
+        },
+        {
+          "text": "og",
+          "start": 102.27,
+          "end": 102.41
+        },
+        {
+          "text": "ned",
+          "start": 102.41,
+          "end": 102.59
+        },
+        {
+          "text": "til",
+          "start": 102.59,
+          "end": 102.83
+        },
+        {
+          "text": "Lindesnes",
+          "start": 102.83,
+          "end": 103.55
+        },
+        {
+          "text": "i",
+          "start": 103.55,
+          "end": 103.95
+        },
+        {
+          "text": "dag.",
+          "start": 103.95,
+          "end": 104.23
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "section": "Vers 2",
+      "text": "Nær og dyktig,",
+      "start": 104.46,
+      "end": 107.92,
+      "words": [
+        {
+          "text": "Nær",
+          "start": 104.46,
+          "end": 105.87
+        },
+        {
+          "text": "og",
+          "start": 105.87,
+          "end": 106.53
+        },
+        {
+          "text": "dyktig,",
+          "start": 106.53,
+          "end": 107.92
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "section": "Vers 2",
+      "text": "Vi jobber best i lag!",
+      "start": 107.92,
+      "end": 110.48,
+      "words": [
+        {
+          "text": "Vi",
+          "start": 107.92,
+          "end": 108.47
+        },
+        {
+          "text": "jobber",
+          "start": 108.47,
+          "end": 109.17
+        },
+        {
+          "text": "best",
+          "start": 109.17,
+          "end": 109.69
+        },
+        {
+          "text": "i",
+          "start": 109.69,
+          "end": 109.99
+        },
+        {
+          "text": "lag!",
+          "start": 109.99,
+          "end": 110.48
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "section": "Refreng",
+      "text": "SpareBank 1! (Hey!) SpareBank 1! (Hey!)",
+      "start": 110.48,
+      "end": 114.08,
+      "words": [
+        {
+          "text": "SpareBank",
+          "start": 110.48,
+          "end": 111.79
+        },
+        {
+          "text": "1!",
+          "start": 111.79,
+          "end": 112.57
+        },
+        {
+          "text": "(Hey!)",
+          "start": 112.57,
+          "end": 112.63
+        },
+        {
+          "text": "SpareBank",
+          "start": 112.63,
+          "end": 113.57
+        },
+        {
+          "text": "1!",
+          "start": 113.57,
+          "end": 113.85
+        },
+        {
+          "text": "(Hey!)",
+          "start": 113.85,
+          "end": 114.08
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "section": "Refreng",
+      "text": "Fra en serviett i nord til hele Norges lag!",
+      "start": 114.08,
+      "end": 117.56,
+      "words": [
+        {
+          "text": "Fra",
+          "start": 114.08,
+          "end": 114.67
+        },
+        {
+          "text": "en",
+          "start": 114.67,
+          "end": 114.93
+        },
+        {
+          "text": "serviett",
+          "start": 114.93,
+          "end": 115.79
+        },
+        {
+          "text": "i",
+          "start": 115.79,
+          "end": 115.87
+        },
+        {
+          "text": "nord",
+          "start": 115.87,
+          "end": 116.01
+        },
+        {
+          "text": "til",
+          "start": 116.01,
+          "end": 116.27
+        },
+        {
+          "text": "hele",
+          "start": 116.27,
+          "end": 116.57
+        },
+        {
+          "text": "Norges",
+          "start": 116.57,
+          "end": 117.09
+        },
+        {
+          "text": "lag!",
+          "start": 117.09,
+          "end": 117.56
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "section": "Refreng",
+      "text": "SpareBank 1! (Hey!) SpareBank 1! (Hey!)",
+      "start": 117.56,
+      "end": 121.3,
+      "words": [
+        {
+          "text": "SpareBank",
+          "start": 117.56,
+          "end": 118.69
+        },
+        {
+          "text": "1!",
+          "start": 118.69,
+          "end": 119.53
+        },
+        {
+          "text": "(Hey!)",
+          "start": 119.53,
+          "end": 119.59
+        },
+        {
+          "text": "SpareBank",
+          "start": 119.59,
+          "end": 120.57
+        },
+        {
+          "text": "1!",
+          "start": 120.57,
+          "end": 121.23
+        },
+        {
+          "text": "(Hey!)",
+          "start": 121.23,
+          "end": 121.3
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "section": "Refreng",
+      "text": "Tretti lys på kaka – vi feirer bursdag i dag!",
+      "start": 121.3,
+      "end": 124.66,
+      "words": [
+        {
+          "text": "Tretti",
+          "start": 121.3,
+          "end": 121.87
+        },
+        {
+          "text": "lys",
+          "start": 121.87,
+          "end": 122.05
+        },
+        {
+          "text": "på",
+          "start": 122.05,
+          "end": 122.27
+        },
+        {
+          "text": "kaka",
+          "start": 122.27,
+          "end": 122.73
+        },
+        {
+          "text": "–",
+          "start": 122.73,
+          "end": 122.79
+        },
+        {
+          "text": "vi",
+          "start": 122.79,
+          "end": 122.87
+        },
+        {
+          "text": "feirer",
+          "start": 122.87,
+          "end": 123.17
+        },
+        {
+          "text": "bursdag",
+          "start": 123.17,
+          "end": 123.63
+        },
+        {
+          "text": "i",
+          "start": 123.63,
+          "end": 124.01
+        },
+        {
+          "text": "dag!",
+          "start": 124.01,
+          "end": 124.66
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "section": "Refreng",
+      "text": "Oh-oh-oh-oh, oh-oh-oh!",
+      "start": 124.66,
+      "end": 127.26,
+      "words": [
+        {
+          "text": "Oh-oh-oh-oh,",
+          "start": 124.66,
+          "end": 126.165
+        },
+        {
+          "text": "oh-oh-oh!",
+          "start": 126.165,
+          "end": 127.26
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "section": "Refreng",
+      "text": "(Skål for tretti år!)",
+      "start": 127.26,
+      "end": 129.22,
+      "words": [
+        {
+          "text": "(Skål",
+          "start": 127.26,
+          "end": 128.15
+        },
+        {
+          "text": "for",
+          "start": 128.15,
+          "end": 128.31
+        },
+        {
+          "text": "tretti",
+          "start": 128.31,
+          "end": 128.83
+        },
+        {
+          "text": "år!)",
+          "start": 128.83,
+          "end": 129.22
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "section": "Refreng",
+      "text": "Oh-oh-oh-oh, oh-oh-oh!",
+      "start": 129.22,
+      "end": 132.08,
+      "words": [
+        {
+          "text": "Oh-oh-oh-oh,",
+          "start": 129.22,
+          "end": 130.876
+        },
+        {
+          "text": "oh-oh-oh!",
+          "start": 130.876,
+          "end": 132.08
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "section": "Breakdown",
+      "text": "Først laga vi en app av banken!",
+      "start": 132.24,
+      "end": 135.1,
+      "words": [
+        {
+          "text": "Først",
+          "start": 132.24,
+          "end": 133.03
+        },
+        {
+          "text": "laga",
+          "start": 133.03,
+          "end": 133.51
+        },
+        {
+          "text": "vi",
+          "start": 133.51,
+          "end": 133.71
+        },
+        {
+          "text": "en",
+          "start": 133.71,
+          "end": 134.39
+        },
+        {
+          "text": "app",
+          "start": 134.39,
+          "end": 134.85
+        },
+        {
+          "text": "av",
+          "start": 134.85,
+          "end": 135.01
+        },
+        {
+          "text": "banken!",
+          "start": 135.01,
+          "end": 135.1
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "section": "Breakdown",
+      "text": "(Hey! Hey!)",
+      "start": 135.1,
+      "end": 135.64,
+      "words": [
+        {
+          "text": "(Hey!",
+          "start": 135.1,
+          "end": 135.37
+        },
+        {
+          "text": "Hey!)",
+          "start": 135.37,
+          "end": 135.64
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "section": "Breakdown",
+      "text": "Nå har vi laga en bank av appen!",
+      "start": 135.64,
+      "end": 138.55,
+      "words": [
+        {
+          "text": "Nå",
+          "start": 135.64,
+          "end": 136.55
+        },
+        {
+          "text": "har",
+          "start": 136.55,
+          "end": 136.75
+        },
+        {
+          "text": "vi",
+          "start": 136.75,
+          "end": 136.91
+        },
+        {
+          "text": "laga",
+          "start": 136.91,
+          "end": 137.61
+        },
+        {
+          "text": "en",
+          "start": 137.61,
+          "end": 137.77
+        },
+        {
+          "text": "bank",
+          "start": 137.77,
+          "end": 138.21
+        },
+        {
+          "text": "av",
+          "start": 138.21,
+          "end": 138.53
+        },
+        {
+          "text": "appen!",
+          "start": 138.53,
+          "end": 138.55
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "section": "Breakdown",
+      "text": "(Hey! Hey!)",
+      "start": 138.55,
+      "end": 139.1,
+      "words": [
+        {
+          "text": "(Hey!",
+          "start": 138.55,
+          "end": 138.825
+        },
+        {
+          "text": "Hey!)",
+          "start": 138.825,
+          "end": 139.1
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "section": "Breakdown",
+      "text": "Ingen kø, ingen skranke, fikse alt i en fei –",
+      "start": 139.1,
+      "end": 142.44,
+      "words": [
+        {
+          "text": "Ingen",
+          "start": 139.1,
+          "end": 139.43
+        },
+        {
+          "text": "kø,",
+          "start": 139.43,
+          "end": 140.01
+        },
+        {
+          "text": "ingen",
+          "start": 140.01,
+          "end": 140.19
+        },
+        {
+          "text": "skranke,",
+          "start": 140.19,
+          "end": 140.85
+        },
+        {
+          "text": "fikse",
+          "start": 140.85,
+          "end": 141.23
+        },
+        {
+          "text": "alt",
+          "start": 141.23,
+          "end": 141.51
+        },
+        {
+          "text": "i",
+          "start": 141.51,
+          "end": 141.75
+        },
+        {
+          "text": "en",
+          "start": 141.75,
+          "end": 141.89
+        },
+        {
+          "text": "fei",
+          "start": 141.89,
+          "end": 142.44
+        },
+        {
+          "text": "–",
+          "start": 142.42,
+          "end": 142.44
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "section": "Breakdown",
+      "text": "hele banken i lomma, den ekke lei!",
+      "start": 142.44,
+      "end": 145.98,
+      "words": [
+        {
+          "text": "hele",
+          "start": 142.44,
+          "end": 142.89
+        },
+        {
+          "text": "banken",
+          "start": 142.89,
+          "end": 143.61
+        },
+        {
+          "text": "i",
+          "start": 143.61,
+          "end": 143.79
+        },
+        {
+          "text": "lomma,",
+          "start": 143.79,
+          "end": 144.55
+        },
+        {
+          "text": "den",
+          "start": 144.55,
+          "end": 144.99
+        },
+        {
+          "text": "ekke",
+          "start": 144.99,
+          "end": 145.57
+        },
+        {
+          "text": "lei!",
+          "start": 145.57,
+          "end": 145.98
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "section": "Vers 3",
+      "text": "Overskuddet går til korps og til cup,",
+      "start": 145.98,
+      "end": 149.36,
+      "words": [
+        {
+          "text": "Overskuddet",
+          "start": 145.98,
+          "end": 147.31
+        },
+        {
+          "text": "går",
+          "start": 147.31,
+          "end": 147.53
+        },
+        {
+          "text": "til",
+          "start": 147.53,
+          "end": 148.01
+        },
+        {
+          "text": "korps",
+          "start": 148.01,
+          "end": 148.53
+        },
+        {
+          "text": "og",
+          "start": 148.53,
+          "end": 148.71
+        },
+        {
+          "text": "til",
+          "start": 148.71,
+          "end": 148.99
+        },
+        {
+          "text": "cup,",
+          "start": 148.99,
+          "end": 149.36
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "section": "Vers 3",
+      "text": "til lysløyper, dugnad og skiheisen opp.",
+      "start": 149.36,
+      "end": 152.82,
+      "words": [
+        {
+          "text": "til",
+          "start": 149.36,
+          "end": 149.91
+        },
+        {
+          "text": "lysløyper,",
+          "start": 149.91,
+          "end": 150.75
+        },
+        {
+          "text": "dugnad",
+          "start": 150.75,
+          "end": 151.31
+        },
+        {
+          "text": "og",
+          "start": 151.31,
+          "end": 151.53
+        },
+        {
+          "text": "skiheisen",
+          "start": 151.53,
+          "end": 152.39
+        },
+        {
+          "text": "opp.",
+          "start": 152.39,
+          "end": 152.82
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "section": "Vers 3",
+      "text": "Samfunnsutbytte – sånn gjør vi det her:",
+      "start": 153.0,
+      "end": 156.4,
+      "words": [
+        {
+          "text": "Samfunnsutbytte",
+          "start": 153.0,
+          "end": 154.67
+        },
+        {
+          "text": "–",
+          "start": 154.67,
+          "end": 154.85
+        },
+        {
+          "text": "sånn",
+          "start": 154.85,
+          "end": 155.07
+        },
+        {
+          "text": "gjør",
+          "start": 155.07,
+          "end": 155.37
+        },
+        {
+          "text": "vi",
+          "start": 155.37,
+          "end": 155.61
+        },
+        {
+          "text": "det",
+          "start": 155.61,
+          "end": 155.85
+        },
+        {
+          "text": "her:",
+          "start": 155.85,
+          "end": 156.4
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "section": "Vers 3",
+      "text": "det som blir tjent i bygda, det blir igjen der!",
+      "start": 156.4,
+      "end": 162.52,
+      "words": [
+        {
+          "text": "det",
+          "start": 156.4,
+          "end": 156.99
+        },
+        {
+          "text": "som",
+          "start": 156.99,
+          "end": 157.27
+        },
+        {
+          "text": "blir",
+          "start": 157.27,
+          "end": 157.61
+        },
+        {
+          "text": "tjent",
+          "start": 157.61,
+          "end": 158.15
+        },
+        {
+          "text": "i",
+          "start": 158.15,
+          "end": 158.33
+        },
+        {
+          "text": "bygda,",
+          "start": 158.33,
+          "end": 160.35
+        },
+        {
+          "text": "det",
+          "start": 160.35,
+          "end": 160.95
+        },
+        {
+          "text": "blir",
+          "start": 160.95,
+          "end": 161.35
+        },
+        {
+          "text": "igjen",
+          "start": 161.35,
+          "end": 161.97
+        },
+        {
+          "text": "der!",
+          "start": 161.97,
+          "end": 162.52
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "section": "Siste refreng",
+      "text": "SpareBank 1! (Hey!) SpareBank 1! (Hey!)",
+      "start": 164.46,
+      "end": 167.56,
+      "words": [
+        {
+          "text": "SpareBank",
+          "start": 164.46,
+          "end": 165.31
+        },
+        {
+          "text": "1!",
+          "start": 165.31,
+          "end": 166.03
+        },
+        {
+          "text": "(Hey!)",
+          "start": 166.03,
+          "end": 166.15
+        },
+        {
+          "text": "SpareBank",
+          "start": 166.15,
+          "end": 167.05
+        },
+        {
+          "text": "1!",
+          "start": 167.05,
+          "end": 167.56
+        },
+        {
+          "text": "(Hey!)",
+          "start": 167.54,
+          "end": 167.56
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "section": "Siste refreng",
+      "text": "Fra en serviett i nord til hele Norges lag!",
+      "start": 167.56,
+      "end": 171.04,
+      "words": [
+        {
+          "text": "Fra",
+          "start": 167.56,
+          "end": 168.15
+        },
+        {
+          "text": "en",
+          "start": 168.15,
+          "end": 168.43
+        },
+        {
+          "text": "serviett",
+          "start": 168.43,
+          "end": 169.25
+        },
+        {
+          "text": "i",
+          "start": 169.25,
+          "end": 169.33
+        },
+        {
+          "text": "nord",
+          "start": 169.33,
+          "end": 169.53
+        },
+        {
+          "text": "til",
+          "start": 169.53,
+          "end": 169.75
+        },
+        {
+          "text": "hele",
+          "start": 169.75,
+          "end": 170.05
+        },
+        {
+          "text": "Norges",
+          "start": 170.05,
+          "end": 170.57
+        },
+        {
+          "text": "lag!",
+          "start": 170.57,
+          "end": 171.04
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "section": "Siste refreng",
+      "text": "SpareBank 1! (Hey!) SpareBank 1! (Hey!)",
+      "start": 171.04,
+      "end": 174.46,
+      "words": [
+        {
+          "text": "SpareBank",
+          "start": 171.04,
+          "end": 172.17
+        },
+        {
+          "text": "1!",
+          "start": 172.17,
+          "end": 172.75
+        },
+        {
+          "text": "(Hey!)",
+          "start": 172.75,
+          "end": 173.05
+        },
+        {
+          "text": "SpareBank",
+          "start": 173.05,
+          "end": 173.93
+        },
+        {
+          "text": "1!",
+          "start": 173.93,
+          "end": 174.46
+        },
+        {
+          "text": "(Hey!)",
+          "start": 174.44,
+          "end": 174.46
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "section": "Siste refreng",
+      "text": "Tretti lys på kaka – vi feirer bursdag i dag!",
+      "start": 174.46,
+      "end": 178.04,
+      "words": [
+        {
+          "text": "Tretti",
+          "start": 174.46,
+          "end": 175.33
+        },
+        {
+          "text": "lys",
+          "start": 175.33,
+          "end": 175.53
+        },
+        {
+          "text": "på",
+          "start": 175.53,
+          "end": 175.73
+        },
+        {
+          "text": "kaka",
+          "start": 175.73,
+          "end": 176.19
+        },
+        {
+          "text": "–",
+          "start": 176.19,
+          "end": 176.21
+        },
+        {
+          "text": "vi",
+          "start": 176.21,
+          "end": 176.31
+        },
+        {
+          "text": "feirer",
+          "start": 176.31,
+          "end": 176.63
+        },
+        {
+          "text": "bursdag",
+          "start": 176.63,
+          "end": 177.11
+        },
+        {
+          "text": "i",
+          "start": 177.11,
+          "end": 177.49
+        },
+        {
+          "text": "dag!",
+          "start": 177.49,
+          "end": 178.04
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "section": "Siste refreng",
+      "text": "Oh-oh-oh-oh, oh-oh-oh!",
+      "start": 178.04,
+      "end": 182.52,
+      "words": [
+        {
+          "text": "Oh-oh-oh-oh,",
+          "start": 178.04,
+          "end": 180.634
+        },
+        {
+          "text": "oh-oh-oh!",
+          "start": 180.634,
+          "end": 182.52
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "section": "Siste refreng",
+      "text": "(Tretti år! Tretti år!)",
+      "start": 182.52,
+      "end": 186.02,
+      "words": [
+        {
+          "text": "(Tretti",
+          "start": 182.52,
+          "end": 183.833
+        },
+        {
+          "text": "år!",
+          "start": 183.833,
+          "end": 184.27
+        },
+        {
+          "text": "Tretti",
+          "start": 184.27,
+          "end": 185.583
+        },
+        {
+          "text": "år!)",
+          "start": 185.583,
+          "end": 186.02
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "section": "Siste refreng",
+      "text": "Oh-oh-oh-oh, oh-oh-oh!",
+      "start": 186.02,
+      "end": 190.5,
+      "words": [
+        {
+          "text": "Oh-oh-oh-oh,",
+          "start": 186.02,
+          "end": 188.614
+        },
+        {
+          "text": "oh-oh-oh!",
+          "start": 188.614,
+          "end": 190.5
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "section": "Outro",
+      "text": "ooooh-oh-oh-oh",
+      "start": 208.86,
+      "end": 214.94,
+      "words": [
+        {
+          "text": "ooooh-oh-oh-oh",
+          "start": 208.86,
+          "end": 214.94
+        }
+      ]
+    }
+  ]
+}
