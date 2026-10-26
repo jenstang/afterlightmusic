@@ -1,4 +1,4 @@
-name: Publish AFTERLIGHT
+name: Publish music players
 
 on:
   push:
@@ -31,7 +31,7 @@ jobs:
           cache: pnpm
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      - name: Check TypeScript and build film
+      - name: Check TypeScript and build players
         run: pnpm build
       - name: Configure Pages
         uses: actions/configure-pages@v5
