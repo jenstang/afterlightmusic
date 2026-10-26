@@ -1,7 +1,10 @@
 node_modules/
 dist/
 *.webm
+*.mp4
 artifacts/
 .vite/
 /*.wav
 /public/*.wav
+output/
+!/public/karaoke/serviett-i-nord-karaoke.mp4
