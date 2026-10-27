@@ -25,7 +25,7 @@ windows=[
  (208.86,214.94)
 ]
 lines=[];section=''
-for line in (ROOT/'karaoke/lyrics.txt').read_text(encoding='utf8').splitlines():
+for line in (ROOT/'karaoke/lyrics-original.txt').read_text(encoding='utf8').splitlines():
     if line.startswith('['):section=line.strip('[]')
     elif line.strip():lines.append((section,line))
 assert len(lines)==len(windows),(len(lines),len(windows))
@@ -64,9 +64,9 @@ for index,((section,text),(begin,end)) in enumerate(zip(lines,windows)):
     cues.append({'id':index,'section':section,'text':text,'start':begin,'end':end,'words':times})
     print(f'{index:02d} {begin:6.2f}-{end:6.2f} {text}',flush=True)
 song={'title':'Serviett i nord','duration':round(len(audio)/16000,3),'source':'Serviett i nord v6.wav','method':'local-whisper-forced-alignment-with-reviewed-phrase-windows','cues':cues}
-(ROOT/'karaoke/timing.json').write_text(json.dumps(song,ensure_ascii=False,indent=2),encoding='utf8')
+(ROOT/'artifacts/karaoke/generated-timing-candidate.json').write_text(json.dumps(song,ensure_ascii=False,indent=2),encoding='utf8')
 (ROOT/'artifacts/karaoke/alignment-confidence.json').write_text(json.dumps(quality,indent=2))
 def timestamp(t):
     ms=round(t*1000);return f'{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02},{ms%1000:03}'
-(ROOT/'artifacts/karaoke/Serviett-i-nord.srt').write_text('\n\n'.join(f'{i+1}\n{timestamp(c["start"])} --> {timestamp(c["end"])}\n{c["text"]}' for i,c in enumerate(cues))+'\n',encoding='utf8')
+(ROOT/'artifacts/karaoke/generated-timing-candidate.srt').write_text('\n\n'.join(f'{i+1}\n{timestamp(c["start"])} --> {timestamp(c["end"])}\n{c["text"]}' for i,c in enumerate(cues))+'\n',encoding='utf8')
 print('SAVED',len(cues),'cues',sum(len(c['words']) for c in cues),'words',flush=True)

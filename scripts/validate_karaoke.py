@@ -17,4 +17,4 @@ for cue in song['cues']:
     previous=cue['end']
 with wave.open(str(root/'artifacts/karaoke/source.wav')) as source:
     assert abs(source.getnframes()/source.getframerate()-song['duration'])<.001
-print(f'OK: {len(supplied)} lines, {sum(len(c["words"]) for c in song["cues"])} words, {song["duration"]} seconds; exact supplied lyric text preserved.')
+print(f'OK: {len(supplied)} lines, {sum(len(c["words"]) for c in song["cues"])} words, {song["duration"]} seconds; current performance text matches the timeline.')
