@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import type {Cue,Mode,Song,Word} from './types';
+import {cueAt,sectionAt} from './timeline';
 
 export const PALETTE={vann:'#005AA4',fjell:'#002776',frost:'#7EB5D2',sand:'#F8E9DD',syrin:'#D3D3EA',white:'#FFFFFF'};
 const clamp=(v:number)=>Math.max(0,Math.min(1,v));
@@ -33,20 +34,11 @@ export class KaraokeRenderer{
     const text=new THREE.Mesh(new THREE.PlaneGeometry(1920,1080),new THREE.MeshBasicMaterial({map:this.texture,transparent:true,toneMapped:false,depthWrite:false}));
     this.scene.add(text);this.camera.position.z=2;
   }
-  cueAt(time:number):Cue{
-    const t=time-this.offset;
-    let result=this.song.cues[0];
-    for(let i=1;i<this.song.cues.length;i++){
-      const prev=this.song.cues[i-1],next=this.song.cues[i];
-      const switchTime=Math.max(prev.end+.02,next.start-.65);
-      if(t>=switchTime)result=next;else break;
-    }
-    return result;
-  }
+  cueAt(time:number):Cue|undefined{return cueAt(this.song,time-this.offset);}
   private colorAt(t:number){
     // Vann remains the dominant profile color. Sections change between solid colors.
     if(this.colorMode!=='profile')return this.colorMode;
-    const section=this.cueAt(t).section;
+    const section=sectionAt(this.song,t-this.offset);
     if(section==='Breakdown')return PALETTE.fjell;
     if(section==='Vers 3')return PALETTE.sand;
     if(section==='Før refreng')return PALETTE.fjell;
@@ -83,11 +75,12 @@ export class KaraokeRenderer{
   }
   render(time:number){
     const cue=this.cueAt(time),t=time-this.offset,ctx=this.ctx;
-    if(cue.id!==this.lastCue)this.layout(cue);
+    if(cue&&cue.id!==this.lastCue)this.layout(cue);
     const bg=this.colorAt(time);
     this.currentDark=![PALETTE.sand,PALETTE.frost,PALETTE.syrin].includes(bg);
     this.scene.background=new THREE.Color(bg);
     ctx.clearRect(0,0,1920,1080);
+    if(!cue){this.texture.needsUpdate=true;this.renderer.render(this.scene,this.camera);return undefined;}
     ctx.font=`${this.currentFont}px SB1Medium, Arial, sans-serif`;
     ctx.textBaseline='middle';ctx.textAlign='left';
     const base=this.currentDark?'rgba(255,255,255,.76)':'rgba(0,39,118,.66)';

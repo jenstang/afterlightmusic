@@ -2,97 +2,276 @@
   "title": "Serviett i nord",
   "duration": 216.76,
   "source": "Serviett i nord v6.wav",
-  "method": "local-whisper-forced-alignment-with-reviewed-phrase-windows",
+  "method": "vocal-isolation-assisted-editorial-timing-v2",
   "cues": [
     {
       "id": 0,
       "section": "Intro",
       "text": "Hey! Hey! Hey! Hey!",
-      "start": 2.16,
-      "end": 5.8,
+      "start": 1.7,
+      "end": 4.22,
       "words": [
         {
           "text": "Hey!",
-          "start": 2.16,
-          "end": 3.07
+          "start": 1.7,
+          "end": 2.42
         },
         {
           "text": "Hey!",
-          "start": 3.07,
-          "end": 3.98
+          "start": 2.76,
+          "end": 3.14
         },
         {
           "text": "Hey!",
-          "start": 3.98,
-          "end": 4.89
+          "start": 3.6,
+          "end": 3.9
         },
         {
           "text": "Hey!",
-          "start": 4.89,
-          "end": 5.8
+          "start": 3.94,
+          "end": 4.22
         }
       ]
     },
     {
       "id": 1,
       "section": "Intro",
-      "text": "Tretti år! Tretti år!",
-      "start": 6.1,
-      "end": 9.4,
+      "text": "Tretti år!",
+      "start": 4.26,
+      "end": 5.34,
       "words": [
         {
           "text": "Tretti",
-          "start": 6.1,
-          "end": 7.338
+          "start": 4.26,
+          "end": 4.98
         },
         {
           "text": "år!",
-          "start": 7.338,
-          "end": 7.75
-        },
-        {
-          "text": "Tretti",
-          "start": 7.75,
-          "end": 8.988
-        },
-        {
-          "text": "år!",
-          "start": 8.988,
-          "end": 9.4
+          "start": 4.98,
+          "end": 5.34
         }
       ]
     },
     {
       "id": 2,
       "section": "Intro",
-      "text": "Hey! Hey! Hey! Hey!",
-      "start": 15.2,
-      "end": 19.3,
+      "text": "Tretti år!",
+      "start": 7.88,
+      "end": 8.84,
       "words": [
         {
-          "text": "Hey!",
-          "start": 15.2,
-          "end": 16.225
+          "text": "Tretti",
+          "start": 7.88,
+          "end": 8.5
         },
         {
-          "text": "Hey!",
-          "start": 16.225,
-          "end": 17.25
-        },
-        {
-          "text": "Hey!",
-          "start": 17.25,
-          "end": 18.275
-        },
-        {
-          "text": "Hey!",
-          "start": 18.275,
-          "end": 19.3
+          "text": "år!",
+          "start": 8.5,
+          "end": 8.84
         }
       ]
     },
     {
       "id": 3,
+      "section": "Intro",
+      "text": "Hey! Hey! Hey! Hey!",
+      "start": 12.04,
+      "end": 13.88,
+      "words": [
+        {
+          "text": "Hey!",
+          "start": 12.04,
+          "end": 12.66
+        },
+        {
+          "text": "Hey!",
+          "start": 12.98,
+          "end": 13.08
+        },
+        {
+          "text": "Hey!",
+          "start": 13.38,
+          "end": 13.5
+        },
+        {
+          "text": "Hey!",
+          "start": 13.64,
+          "end": 13.88
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "section": "Intro",
+      "text": "Hey!",
+      "start": 14.02,
+      "end": 14.3,
+      "words": [
+        {
+          "text": "Hey!",
+          "start": 14.02,
+          "end": 14.3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "section": "Intro",
+      "text": "Hey!",
+      "start": 14.52,
+      "end": 14.88,
+      "words": [
+        {
+          "text": "Hey!",
+          "start": 14.52,
+          "end": 14.88
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "section": "Intro",
+      "text": "Hey!",
+      "start": 15.2,
+      "end": 15.42,
+      "words": [
+        {
+          "text": "Hey!",
+          "start": 15.2,
+          "end": 15.42
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "section": "Intro",
+      "text": "Hey!",
+      "start": 16.46,
+      "end": 17.32,
+      "words": [
+        {
+          "text": "Hey!",
+          "start": 16.46,
+          "end": 17.32
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "section": "Intro",
+      "text": "Hey!",
+      "start": 18.44,
+      "end": 19.3,
+      "words": [
+        {
+          "text": "Hey!",
+          "start": 18.44,
+          "end": 19.3
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "section": "Intro",
+      "text": "Hey!",
+      "start": 22.02,
+      "end": 22.88,
+      "words": [
+        {
+          "text": "Hey!",
+          "start": 22.02,
+          "end": 22.88
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "section": "Intro",
+      "text": "Hey!",
+      "start": 23.14,
+      "end": 23.4,
+      "words": [
+        {
+          "text": "Hey!",
+          "start": 23.14,
+          "end": 23.4
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "section": "Intro",
+      "text": "Tretti år! Tretti år!",
+      "start": 24.68,
+      "end": 26.44,
+      "words": [
+        {
+          "text": "Tretti",
+          "start": 24.68,
+          "end": 25.28
+        },
+        {
+          "text": "år!",
+          "start": 25.28,
+          "end": 25.52
+        },
+        {
+          "text": "Tretti",
+          "start": 25.68,
+          "end": 26.1
+        },
+        {
+          "text": "år!",
+          "start": 26.1,
+          "end": 26.44
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "section": "Intro",
+      "text": "Hey! Hey! Hey! Hey!",
+      "start": 26.68,
+      "end": 29.56,
+      "words": [
+        {
+          "text": "Hey!",
+          "start": 26.68,
+          "end": 27.1
+        },
+        {
+          "text": "Hey!",
+          "start": 27.76,
+          "end": 28.0
+        },
+        {
+          "text": "Hey!",
+          "start": 28.18,
+          "end": 28.48
+        },
+        {
+          "text": "Hey!",
+          "start": 28.9,
+          "end": 29.56
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "section": "Intro",
+      "text": "Oh-oh-oh-oh!",
+      "start": 29.66,
+      "end": 32.72,
+      "words": [
+        {
+          "text": "Oh-oh-oh-oh!",
+          "start": 29.66,
+          "end": 32.72
+        }
+      ]
+    },
+    {
+      "id": 14,
       "section": "Vers 1",
       "text": "Nittiseks, og det snødde tungt i nord,",
       "start": 33.2,
@@ -136,7 +315,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 15,
       "section": "Vers 1",
       "text": "noen karer satt rundt samme bord.",
       "start": 36.58,
@@ -175,7 +354,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 16,
       "section": "Vers 1",
       "text": "Ingen fasit, ingen store ord –",
       "start": 40.08,
@@ -214,7 +393,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 17,
       "section": "Vers 1",
       "text": "bare en serviett og en drøm så stor.",
       "start": 43.52,
@@ -263,7 +442,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 18,
       "section": "Før refreng",
       "text": "Én strek, én sirkel, ett navn på papir,",
       "start": 46.96,
@@ -312,7 +491,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 19,
       "section": "Før refreng",
       "text": "og karene skåla for det som kom hit.",
       "start": 50.46,
@@ -361,7 +540,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 20,
       "section": "Før refreng",
       "text": "Løft opp glasset, syng med her –",
       "start": 54.08,
@@ -405,7 +584,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 21,
       "section": "Før refreng",
       "text": "resten, folkens, det er historie!",
       "start": 57.56,
@@ -439,7 +618,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 22,
       "section": "Refreng",
       "text": "SpareBank 1! (Hey!) SpareBank 1! (Hey!)",
       "start": 62.5,
@@ -478,7 +657,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 23,
       "section": "Refreng",
       "text": "Fra en serviett i nord til hele Norges lag!",
       "start": 65.76,
@@ -532,7 +711,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 24,
       "section": "Refreng",
       "text": "SpareBank 1! (Hey!) SpareBank 1! (Hey!)",
       "start": 69,
@@ -571,7 +750,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 25,
       "section": "Refreng",
       "text": "Tretti lys på kaka – vi feirer bursdag i dag!",
       "start": 72.38,
@@ -630,7 +809,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 26,
       "section": "Refreng",
       "text": "Oh-oh-oh-oh, oh-oh-oh!",
       "start": 76.36,
@@ -649,7 +828,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 27,
       "section": "Refreng",
       "text": "(Skål for tretti år!)",
       "start": 78.9,
@@ -678,11 +857,11 @@
       ]
     },
     {
-      "id": 17,
+      "id": 28,
       "section": "Refreng",
       "text": "Oh-oh-oh-oh, oh-oh-oh!",
       "start": 80.6,
-      "end": 84.1,
+      "end": 84.0,
       "words": [
         {
           "text": "Oh-oh-oh-oh,",
@@ -692,12 +871,12 @@
         {
           "text": "oh-oh-oh!",
           "start": 82.626,
-          "end": 84.1
+          "end": 84.0
         }
       ]
     },
     {
-      "id": 18,
+      "id": 29,
       "section": "Vers 2",
       "text": "Tolv banker, tolv hjertelag,",
       "start": 97.26,
@@ -726,7 +905,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 30,
       "section": "Vers 2",
       "text": "fra Nordkapp og ned til Lindesnes i dag.",
       "start": 100.94,
@@ -775,7 +954,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 31,
       "section": "Vers 2",
       "text": "Nær og dyktig,",
       "start": 104.46,
@@ -799,7 +978,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 32,
       "section": "Vers 2",
       "text": "Vi jobber best i lag!",
       "start": 107.92,
@@ -833,7 +1012,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 33,
       "section": "Refreng",
       "text": "SpareBank 1! (Hey!) SpareBank 1! (Hey!)",
       "start": 110.48,
@@ -872,7 +1051,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 34,
       "section": "Refreng",
       "text": "Fra en serviett i nord til hele Norges lag!",
       "start": 114.08,
@@ -926,7 +1105,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 35,
       "section": "Refreng",
       "text": "SpareBank 1! (Hey!) SpareBank 1! (Hey!)",
       "start": 117.56,
@@ -965,7 +1144,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": 36,
       "section": "Refreng",
       "text": "Tretti lys på kaka – vi feirer bursdag i dag!",
       "start": 121.3,
@@ -1024,7 +1203,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": 37,
       "section": "Refreng",
       "text": "Oh-oh-oh-oh, oh-oh-oh!",
       "start": 124.66,
@@ -1043,7 +1222,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": 38,
       "section": "Refreng",
       "text": "(Skål for tretti år!)",
       "start": 127.26,
@@ -1072,7 +1251,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": 39,
       "section": "Refreng",
       "text": "Oh-oh-oh-oh, oh-oh-oh!",
       "start": 129.22,
@@ -1091,11 +1270,11 @@
       ]
     },
     {
-      "id": 29,
+      "id": 40,
       "section": "Breakdown",
       "text": "Først laga vi en app av banken!",
       "start": 132.24,
-      "end": 135.1,
+      "end": 135.64,
       "words": [
         {
           "text": "Først",
@@ -1130,35 +1309,16 @@
         {
           "text": "banken!",
           "start": 135.01,
-          "end": 135.1
-        }
-      ]
-    },
-    {
-      "id": 30,
-      "section": "Breakdown",
-      "text": "(Hey! Hey!)",
-      "start": 135.1,
-      "end": 135.64,
-      "words": [
-        {
-          "text": "(Hey!",
-          "start": 135.1,
-          "end": 135.37
-        },
-        {
-          "text": "Hey!)",
-          "start": 135.37,
           "end": 135.64
         }
       ]
     },
     {
-      "id": 31,
+      "id": 41,
       "section": "Breakdown",
       "text": "Nå har vi laga en bank av appen!",
       "start": 135.64,
-      "end": 138.55,
+      "end": 139.1,
       "words": [
         {
           "text": "Nå",
@@ -1198,31 +1358,12 @@
         {
           "text": "appen!",
           "start": 138.53,
-          "end": 138.55
-        }
-      ]
-    },
-    {
-      "id": 32,
-      "section": "Breakdown",
-      "text": "(Hey! Hey!)",
-      "start": 138.55,
-      "end": 139.1,
-      "words": [
-        {
-          "text": "(Hey!",
-          "start": 138.55,
-          "end": 138.825
-        },
-        {
-          "text": "Hey!)",
-          "start": 138.825,
           "end": 139.1
         }
       ]
     },
     {
-      "id": 33,
+      "id": 42,
       "section": "Breakdown",
       "text": "Ingen kø, ingen skranke, fikse alt i en fei –",
       "start": 139.1,
@@ -1281,7 +1422,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 43,
       "section": "Breakdown",
       "text": "hele banken i lomma, den ekke lei!",
       "start": 142.44,
@@ -1325,7 +1466,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": 44,
       "section": "Vers 3",
       "text": "Overskuddet går til korps og til cup,",
       "start": 145.98,
@@ -1369,7 +1510,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": 45,
       "section": "Vers 3",
       "text": "til lysløyper, dugnad og skiheisen opp.",
       "start": 149.36,
@@ -1408,7 +1549,7 @@
       ]
     },
     {
-      "id": 37,
+      "id": 46,
       "section": "Vers 3",
       "text": "Samfunnsutbytte – sånn gjør vi det her:",
       "start": 153.0,
@@ -1452,7 +1593,7 @@
       ]
     },
     {
-      "id": 38,
+      "id": 47,
       "section": "Vers 3",
       "text": "det som blir tjent i bygda, det blir igjen der!",
       "start": 156.4,
@@ -1511,7 +1652,7 @@
       ]
     },
     {
-      "id": 39,
+      "id": 48,
       "section": "Siste refreng",
       "text": "SpareBank 1! (Hey!) SpareBank 1! (Hey!)",
       "start": 164.46,
@@ -1550,7 +1691,7 @@
       ]
     },
     {
-      "id": 40,
+      "id": 49,
       "section": "Siste refreng",
       "text": "Fra en serviett i nord til hele Norges lag!",
       "start": 167.56,
@@ -1604,7 +1745,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": 50,
       "section": "Siste refreng",
       "text": "SpareBank 1! (Hey!) SpareBank 1! (Hey!)",
       "start": 171.04,
@@ -1643,7 +1784,7 @@
       ]
     },
     {
-      "id": 42,
+      "id": 51,
       "section": "Siste refreng",
       "text": "Tretti lys på kaka – vi feirer bursdag i dag!",
       "start": 174.46,
@@ -1702,85 +1843,156 @@
       ]
     },
     {
-      "id": 43,
+      "id": 52,
       "section": "Siste refreng",
-      "text": "Oh-oh-oh-oh, oh-oh-oh!",
-      "start": 178.04,
-      "end": 182.52,
+      "text": "Tretti år!",
+      "start": 183.28,
+      "end": 184.34,
       "words": [
         {
-          "text": "Oh-oh-oh-oh,",
-          "start": 178.04,
-          "end": 180.634
-        },
-        {
-          "text": "oh-oh-oh!",
-          "start": 180.634,
-          "end": 182.52
-        }
-      ]
-    },
-    {
-      "id": 44,
-      "section": "Siste refreng",
-      "text": "(Tretti år! Tretti år!)",
-      "start": 182.52,
-      "end": 186.02,
-      "words": [
-        {
-          "text": "(Tretti",
-          "start": 182.52,
-          "end": 183.833
+          "text": "Tretti",
+          "start": 183.28,
+          "end": 184.04
         },
         {
           "text": "år!",
-          "start": 183.833,
-          "end": 184.27
-        },
+          "start": 184.04,
+          "end": 184.34
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "section": "Siste refreng",
+      "text": "Tretti år!",
+      "start": 184.4,
+      "end": 185.2,
+      "words": [
         {
           "text": "Tretti",
-          "start": 184.27,
-          "end": 185.583
+          "start": 184.4,
+          "end": 184.92
         },
         {
-          "text": "år!)",
-          "start": 185.583,
-          "end": 186.02
+          "text": "år!",
+          "start": 184.92,
+          "end": 185.2
         }
       ]
     },
     {
-      "id": 45,
+      "id": 54,
       "section": "Siste refreng",
-      "text": "Oh-oh-oh-oh, oh-oh-oh!",
-      "start": 186.02,
-      "end": 190.5,
+      "text": "Tretti år!",
+      "start": 185.24,
+      "end": 186.12,
       "words": [
         {
-          "text": "Oh-oh-oh-oh,",
-          "start": 186.02,
-          "end": 188.614
+          "text": "Tretti",
+          "start": 185.24,
+          "end": 185.78
         },
         {
-          "text": "oh-oh-oh!",
-          "start": 188.614,
-          "end": 190.5
+          "text": "år!",
+          "start": 185.78,
+          "end": 186.12
         }
       ]
     },
     {
-      "id": 46,
-      "section": "Outro",
-      "text": "ooooh-oh-oh-oh",
-      "start": 208.86,
-      "end": 214.94,
+      "id": 55,
+      "section": "Siste refreng",
+      "text": "Oh-oh-oh-oh!",
+      "start": 186.54,
+      "end": 188.56,
       "words": [
         {
-          "text": "ooooh-oh-oh-oh",
+          "text": "Oh-oh-oh-oh!",
+          "start": 186.54,
+          "end": 188.56
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "section": "Siste refreng",
+      "text": "Oh-oh-oh-oh!",
+      "start": 188.56,
+      "end": 191.14,
+      "words": [
+        {
+          "text": "Oh-oh-oh-oh!",
+          "start": 188.56,
+          "end": 191.14
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "section": "Siste refreng",
+      "text": "Hey! Hey! Hey!",
+      "start": 191.56,
+      "end": 192.76,
+      "words": [
+        {
+          "text": "Hey!",
+          "start": 191.56,
+          "end": 191.9
+        },
+        {
+          "text": "Hey!",
+          "start": 192.14,
+          "end": 192.32
+        },
+        {
+          "text": "Hey!",
+          "start": 192.56,
+          "end": 192.76
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "section": "Siste refreng",
+      "text": "Oh-oh-oh-oh!",
+      "start": 193.0,
+      "end": 194.98,
+      "words": [
+        {
+          "text": "Oh-oh-oh-oh!",
+          "start": 193.0,
+          "end": 194.98
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "section": "Outro",
+      "text": "Oh-oh-oh-oh!",
+      "start": 208.86,
+      "end": 214.0,
+      "words": [
+        {
+          "text": "Oh-oh-oh-oh!",
           "start": 208.86,
-          "end": 214.94
+          "end": 214.0
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "section": "Outro",
+      "text": "Oh-oh-oh-oh!",
+      "start": 214.0,
+      "end": 215.32,
+      "words": [
+        {
+          "text": "Oh-oh-oh-oh!",
+          "start": 214.0,
+          "end": 215.32
         }
       ]
     }
-  ]
+  ],
+  "revision": 2
 }

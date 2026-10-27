@@ -51,7 +51,7 @@ function progress(value:number,label:string){$<HTMLProgressElement>('export-prog
 function setBusy(value:boolean){exporting=value;for(const id of ['start','play','restart','seek','mode','palette','offset','export'])($<HTMLButtonElement>(id)).disabled=value;}
 $('cancel').onclick=()=>{cancelled=true;$('export-label').textContent='Avbryter …';};
 async function exportVideo(){
-  if(!import.meta.env.DEV){const link=document.createElement('a');link.href=`${import.meta.env.BASE_URL}karaoke/serviett-i-nord-karaoke.mp4`;link.download='Serviett-i-nord-karaoke.mp4';link.click();$('status').textContent='Laster ned den ferdige 1080p-videoen med flytende ordmarkering.';return;}
+  if(!import.meta.env.DEV){const link=document.createElement('a');link.href=`${import.meta.env.BASE_URL}karaoke/serviett-i-nord-karaoke.mp4?v=${song.revision??1}`;link.download='Serviett-i-nord-karaoke.mp4';link.click();$('status').textContent='Laster ned den ferdige 1080p-videoen med flytende ordmarkering.';return;}
   const previous=audio.currentTime,wasPlaying=!audio.paused;audio.pause();cancelled=false;setBusy(true);stage.classList.add('started');
   $('export-panel').classList.add('visible');$('export-result').replaceChildren();$('cancel').hidden=false;
   let encoder:VideoEncoder|undefined;

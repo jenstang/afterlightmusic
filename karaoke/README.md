@@ -12,13 +12,17 @@ Velg **Flytende farge** eller **Sprettende prikk**. Standardbakgrunnen bruker Va
 
 ## Tekst og synkronisering
 
-- `lyrics.txt`: teksten brukeren oppga, uten sceneanvisningene i videobildet.
-- `timing.json`: 47 tekstlinjer og 271 ord med tidskoder i sekunder.
+- `lyrics-original.txt`: det opprinnelige tekstarket fra brukeren.
+- `lyrics.txt`: fremføringsteksten med gjentakelser og utelatelser fra den reviderte videoen.
+- `timing.json`: 61 tekstlinjer og 288 ord med tidskoder i sekunder, revisjon 2.
+- `timeline.ts`: visningsvinduer med kort leseforsprang og faste sluttider. Instrumentalpauser viser bare bakgrunnsfargen.
 - `renderer.ts`: deterministisk Three.js-renderer; samme tidskode gir samme bilde i avspilling og eksport.
 - `../scripts/transcribe_karaoke.py`: lokal vokalanalyse med Whisper, kun for å finne tidspunkter.
-- `../scripts/align_karaoke.py`: justerer ordene fra den oppgitte teksten mot lokale lydvinduer med kryssoppmerksomhetsbasert justering. Modellen erstatter ikke ordlyden.
+- `../scripts/align_karaoke.py`: lager et kandidatforslag i `artifacts/karaoke/` fra originalteksten, uten å overskrive de redigerte tidskodene.
+- `../scripts/revise_karaoke.py`: gjenskaper revisjon 2 fra den første publiserte tidskodefilen og de redigerte frasegrensene.
+- `../scripts/test-karaoke-timeline.ts`: kontrollerer tekstpauser, sluttider og de konkrete rettelsene.
 
-Tidskoder for ordinær sang er basert på lokal vokalanalyse og frasevinduer. Korte korrop og de ikke-leksikalske «Oh»-partiene har rytmisk fordelte markeringer; disse er omtrentlige. Innstillingen «Forsink tekst» gjør det mulig å kompensere for lydforsinkelse i visningsutstyret. Originalmusikken er beholdt, inkludert vokalen; dette er en karaokevideo med tekst, ikke en separat instrumentalversjon.
+Tidskoder for ordinær sang er basert på lokal vokalanalyse og frasevinduer. I revisjon 2 er introen og avslutningen justert mot lokalt isolert vokal. Teksten slukkes ved 1:24 og i oppbyggingen ved 2:58. De to «Hey»-svarene i breakdown er fjernet. Avslutningen deler gjentatte «Oh»-runder og «Hey»-rop i egne tekstblokker som forsvinner når frasen er ferdig. Korte korrop og ikke-leksikalske «Oh»-partier har fortsatt omtrentlige ordmarkeringer. Innstillingen «Forsink tekst» gjør det mulig å kompensere for lydforsinkelse i visningsutstyret. Originalmusikken er beholdt, inkludert vokalen.
 
 ## Profil
 
